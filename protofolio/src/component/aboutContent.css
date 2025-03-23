@@ -1,0 +1,71 @@
+.aboutContent
+{
+    position:relative;
+}
+.aboutContent__container
+{
+    
+    color:red;
+    position: absolute;
+    top:300px;
+    right:120px;
+   
+}
+.aboutContent__container > h1
+{
+    color: white;
+    padding: 2px;
+}
+.aboutContent__container > p
+{
+    letter-spacing: 1px;
+    text-align: left;
+    padding:2px;
+    font-size:1rem;
+}
+.aboutContent__container > a > button
+{
+    
+    margin-bottom: 30px;;
+    text-align: left;
+    border:none;
+    border-radius: 50px;
+    outline: none;
+}
+.aboutContent__container > a > .resume
+{
+    background-color: red;
+    font-size:14px;
+    padding:10px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor:pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.aboutContent__container > a > .resume:hover
+{
+    background-color: white;
+    color:black;
+}
+.aboutContent__container > a > .mywork
+{
+    background-color: transparent;
+    color:white;
+    font-size:14px;
+    padding:10px 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor:pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: solid white 1px;
+
+}
+.aboutContent__container > a > .mywork:hover
+{
+    background-color: red;
+    color:white;
+    border: solid black 1px;
+}
+
+
+

@@ -1,0 +1,17 @@
+.expcontent
+{
+   
+    text-align: center;
+    margin: 20px;
+    padding:100px;
+   
+}
+.expcontent__box
+{
+    display:flex;
+    justify-content: space-evenly;
+    
+   
+    padding:20px;
+
+}

@@ -1,0 +1,15 @@
+.expbox > h1
+{
+    color:red;
+}
+.expbox > h2 
+{
+    color:white;
+}
+.expbox
+{
+    border: 2px solid red;
+    margin: 2px;
+    padding:2px;
+   
+}

@@ -1,0 +1,29 @@
+.topContainer{
+    background: url("../assets/5056413.jpg");
+    height:100vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgb(0,0,0,0.5);
+  
+}
+.parent-container
+{
+    position: relative;
+}
+.child-one {
+
+    position: absolute;
+  
+    z-index: 10;
+  
+  }
+  
+  
+  
+  .child-two {
+  
+    position: absolute;
+  
+    z-index: 1;
+  }

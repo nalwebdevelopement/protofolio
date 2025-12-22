@@ -1,23 +1,30 @@
  .project > img{
-    width: 200px;
+    width: 500px;
     height:200px
 }
 
 .project
 {
     margin:15px;
-    width: 350px;
-    height:179px;   
+    width: 500px;
+    height:200px;   
     transition : transform 100ms ease-in;
+    padding :20px;
+    align-items: center;
+    background-color: rgba(169, 177, 177, 0.773);
+    border-radius: 25px;
+   
+     
 }
 .project:hover{
     color:white;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.684);
     transform: scale(1.05);
     display:flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+   
 
 
 }
@@ -31,5 +38,5 @@
 }
 .project__content > p
 {
-    font-size: 14px;
+    font-size: 20px;
 }

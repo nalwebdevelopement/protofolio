@@ -12,6 +12,9 @@ https://www.npmjs.com/package/react-scroll?activeTab=dependencies
 
 Code to add the react scroll 
 
+Need to install react-scroll
+npm install react-scroll
+
 import {Link} from "react-scroll"  The link tag is like the anchor tag behind the secean all will work as html
  <div className="header__right">
            <link to="about" smooth={true} duration = {500}>

@@ -6,12 +6,12 @@ function Experience() {
 
     const exp = [
         {
-            yrs : "2 yrs",
+            yrs : "June 2022 – May 2024",
             title:"QA Engineer",
             desc:"Nallas LLC"
         },
         {
-            yrs : "2 mon at present",
+            yrs : "Jan 15 2025 – till date",
             title:"Software Engineer",
             desc:"Art Sphere Inc"
         },

@@ -6,13 +6,14 @@ import Skill from './Skill'
 import Project from './Project'
 import './topcontainer.css'
 import Experience from './Experience'
+import Contact from './Contact'
 
 
 
 function TopContainer() {
   return (
     
-   <> // the name should match with the link in header.jsx
+   <>
     <Element name="about" className="topContainer">  
        <AboutContent/>
       
@@ -25,6 +26,9 @@ function TopContainer() {
       </Element>
       <Element name="expe" ClassName="expe">
       <Experience/>
+      </Element>
+      <Element name="Contact" ClassName="contact">
+      <Contact/>
       </Element>
       
 </>

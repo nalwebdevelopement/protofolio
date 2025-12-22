@@ -10,7 +10,7 @@ function projectcont({img,title,desc,link}) {
       {/* Conditional rendering */}
 
       {show ?
-      (<div className="project__content"> <h4> {title} </h4> <p> {desc}</p>  </div>)
+      (<div className="project__content"> <h3> {title} </h3> <p> {desc}</p>  </div>)
       :
       ( <img src= {img} alt=""/>
       )}

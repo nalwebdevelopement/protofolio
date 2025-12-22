@@ -4,14 +4,17 @@
     text-align: center;
     margin: 20px;
     padding:100px;
+    background-color: rgb(12, 12, 12);
    
 }
 .expcontent__box
 {
     display:flex;
     justify-content: space-evenly;
+    padding :30px;
+   
     
    
-    padding:20px;
+   
 
 }

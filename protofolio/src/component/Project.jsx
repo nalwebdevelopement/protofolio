@@ -1,5 +1,5 @@
 import React from 'react'
-import Projectcont from './projectcont';
+import Projectcont from './Projectcont';
 import './project.css';
 import todoImage from "../assets/todo.png";
 import togglecolor from "../assets/togglecolor.png";
